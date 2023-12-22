@@ -1,5 +1,5 @@
 import { MdOutlineChair } from "react-icons/md";
-
+import { RiFileSettingsLine } from "react-icons/ri";
 const Service = () => {
   return (
     <div className="bg-white py-[130px]">
@@ -17,7 +17,7 @@ const Service = () => {
         </div>
 
         <div className="grid grid-cols-3 gap-[30px]">
-          <div className="overflow-hidden border group">
+          <div className="overflow-hidden group">
             <div className="service-card-img ">
               <img src="/images/service-1.jpg" alt="img" />
             </div>
@@ -42,18 +42,18 @@ const Service = () => {
           
           <div className="overflow-hidden border group">
             <div className="service-card-img ">
-              <img src="/images/service-1.jpg" alt="img" />
+              <img src="/images/service-2.jpg" alt="img" />
             </div>
 
             <div className=" relative z-[1] w-full -top-[30px] left-[30px] [box-shadow:0_0_16px_rgb(0_0_0_/_10%)] pt-[25px] px-[30px] pb-[40px] bg-[#fff]">
               <div className="absolute -top-[40px] right-[60px] bg-[#fff] px-[24px] py-[25px] rounded-[50%] transition:all [box-shadow:0_0_60px_rgb(0_0_0_/_10%)]  ">
                 <span className="service-chair-outline">
-                  <MdOutlineChair className="text-[35px] text-SecondaryColor-0 group-hover:text-white transition:all duration-500 " />
+                  <RiFileSettingsLine  className="text-[35px] text-SecondaryColor-0 group-hover:text-white transition:all duration-500 " />
                 </span>
               </div>
 
               <h1 className="text-[#0a1027] text-[27px] font-Yantramanav font-bold  my-1">
-                Architecture
+              Interior Design
               </h1>
               <p className=" text-[#565969] font-Archivo">
                 A factory is a business that produces goods or products goods
@@ -65,7 +65,7 @@ const Service = () => {
           
           <div className="overflow-hidden border group">
             <div className="service-card-img ">
-              <img src="/images/service-1.jpg" alt="img" />
+              <img src="/images/service-3.jpg" alt="img" />
             </div>
 
             <div className=" relative z-[1] w-full -top-[30px] left-[30px] [box-shadow:0_0_16px_rgb(0_0_0_/_10%)] pt-[25px] px-[30px] pb-[40px] bg-[#fff]">
@@ -76,7 +76,7 @@ const Service = () => {
               </div>
 
               <h1 className="text-[#0a1027] text-[27px] font-Yantramanav font-bold  my-1">
-                Architecture
+              Exterior Design
               </h1>
               <p className=" text-[#565969] font-Archivo">
                 A factory is a business that produces goods or products goods

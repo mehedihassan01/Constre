@@ -1,5 +1,6 @@
 import { GoArrowUpRight } from "react-icons/go";
 
+
 const Slider = () => {
   return (
     <div className="bg-[url('/images/slider-bg.jpg')] h-[850px] bg-center bg-cover bg-no-repeat ">
